@@ -1,0 +1,19 @@
+{
+  "name": "chrome-ansi",
+  "version": "1.0.0",
+  "description": "Make chrome display ansi escape codes nicely",
+  "main": "popup.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ansi-to-html": "^0.6.10",
+    "browserify": "^16.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "omeramosbarak@gmail.com",
+  "license": "ISC"
+}

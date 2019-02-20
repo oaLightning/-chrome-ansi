@@ -1,0 +1,21 @@
+\033[0mAll attributes off\033[0m
+\033[1mBold\033[0m
+\033[4mUnderline\033[0m
+\033[5mBlink\033[0m
+\033[8mHide\033[0m
+\033[30mBlack\033[0m
+\033[31mRed\033[0m
+\033[32mGreen\033[0m
+\033[33mYellow\033[0m
+\033[34mBlue\033[0m
+\033[35mMagenta\033[0m
+\033[36mCyan\033[0m
+\033[37mWhite\033[0m
+\033[40m\033[37mBlack Background\033[0m
+\033[41mRead Background\033[0m
+\033[42mGreen Background\033[0m
+\033[43mYellow Background\033[0m
+\033[44mBlue Background\033[0m
+\033[45mMagenta Background\033[0m
+\033[46mCyan Background\033[0m
+\033[47mWhite Background\033[0m
