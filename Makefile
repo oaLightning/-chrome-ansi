@@ -1,6 +1,6 @@
 
-dist/popup.js:
-	@browserify -r ./popup.js > dist/popup.js
+dist/content.js:
+	@browserify -r ./content.js > dist/content.js
 
 clean:
-	@rm dist/popup.js
+	@rm dist/content.js

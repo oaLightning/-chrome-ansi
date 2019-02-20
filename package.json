@@ -2,7 +2,7 @@
   "name": "chrome-ansi",
   "version": "1.0.0",
   "description": "Make chrome display ansi escape codes nicely",
-  "main": "popup.js",
+  "main": "content.js",
   "directories": {
     "test": "test"
   },
