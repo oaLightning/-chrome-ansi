@@ -1,10 +1,8 @@
 'use strict';
 
-alert(1);
 var Convert = require("ansi-to-html");
 
 function changeTab() {
-  alert('updating tab');
   var convert = new Convert();
 
   let data = document.all[0].innerText;
