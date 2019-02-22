@@ -8,7 +8,8 @@ function changeTab() {
   let data = document.all[0].innerText;
   let lines = data.split('\n');
   let output_lines = lines.map(line => '<div>' + convert.toHtml(line) + '</div>');
-  document.all[0].innerHTML = output_lines;
+  let output = output_lines.join('')
+  document.all[0].innerHTML = output;
 }
 
 chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
