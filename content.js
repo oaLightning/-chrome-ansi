@@ -6,8 +6,9 @@ function changeTab() {
   var convert = new Convert();
 
   let data = document.all[0].innerText;
-  let output = convert.toHtml(data);
-  document.all[0].innerText = output;
+  let lines = data.split('\n');
+  let output_lines = lines.map(line => '<div>' + convert.toHtml(line) + '</div>');
+  document.all[0].innerHTML = output_lines;
 }
 
 chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
